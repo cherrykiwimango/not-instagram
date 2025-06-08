@@ -1,0 +1,49 @@
+.header{
+  font-weight: bolder;
+  font-size: 35px;
+  align-self: center;
+  margin-bottom: 8px;
+}
+
+.link{
+  color: cadetblue;
+  font-size: 14px;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input-item{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label{
+  font-size: 15px;
+}
+
+input{
+  padding: 15px 10px;
+  width: 300px;
+  border-radius: 5px;
+  border-color: rgb(210, 210, 210);
+  border-style: solid;
+}
+
+button{
+  color: white;
+  background-color: cadetblue;
+  padding: 15px 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  border-radius: 5px;
+  width: 120px;
+}
