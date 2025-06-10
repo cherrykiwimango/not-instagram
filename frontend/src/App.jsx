@@ -5,6 +5,7 @@ import Signup from "./pages/Signup";
 import Home from "./pages/Home";
 import { useEffect, useState } from "react";
 import RefreshHandler from "./refresh.handler";
+import Post from "./pages/Post";
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -22,6 +23,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/home" element={<PrivateRoute element={<Home />} />} />
+        <Route path="/post" element={<PrivateRoute element={<Post/>}/>}/>
       </Routes>
     </>
   );

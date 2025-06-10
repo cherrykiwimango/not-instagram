@@ -51,7 +51,8 @@ const Signup = () => {
   };
 
   return (
-    <div className="container">
+    <div className="login-form">
+      <div className="login-container">
       <h2 className="header">Get Started &rarr;</h2>
       <div className="link">
         <span>
@@ -90,6 +91,8 @@ const Signup = () => {
       </form>
       <ToastContainer />
     </div>
+    </div>
+    
   );
 };
 

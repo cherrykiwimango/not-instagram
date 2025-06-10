@@ -1,0 +1,101 @@
+.post-container {
+  display: flex;
+  gap: 40px;
+  min-height: 60vh;
+  margin-left: 16rem;
+  padding: 0 50px;
+  margin-right: 25rem;
+  margin-top: 80px;
+}
+
+.file-upload {
+  max-width: 500px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  border-color: #aaaaaa;
+  border-width: 1px;
+}
+
+.title {
+  font-size: 1.7rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  display: block;
+}
+
+.input-container {
+  margin-top: 20px;
+  border: 2px dashed #555;
+  padding: 30px;
+  border-radius: 10px;
+  background: rgba(171, 191, 192, 0.248);
+  transition: background 0.2s;
+}
+
+.input-container:hover {
+  background: #e2e2e2;
+}
+
+.upload-icon {
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.file-input {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  color: black;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+}
+
+.file-input::file-selector-button {
+  background-color: cadetblue;
+  padding: 8px 15px;
+  font-size: 14px;
+  margin: 0;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.preview-image {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 1px solid #444;
+}
+
+.caption {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.post-submit {
+  display: block;
+}
+
+.caption-area {
+  padding: 20px;
+  border: #aaaaaa solid 1px;
+  border-radius: 12px;
+}
